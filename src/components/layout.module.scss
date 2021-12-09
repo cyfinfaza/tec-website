@@ -1,0 +1,18 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	& > * {
+		width: var(--content-width);
+		max-width: 100%;
+	}
+	gap: 16px;
+}
+
+.content {
+	font-size: 1.2em;
+	line-height: 1.2;
+}
