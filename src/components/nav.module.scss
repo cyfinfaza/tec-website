@@ -36,7 +36,7 @@
 .navLink {
 	padding: 12px;
 	border-radius: 8px;
-	// transition: 120ms;
+	// transition: transform 120ms;
 	height: var(--button-height);
 	box-sizing: border-box;
 	background: transparent;
@@ -45,10 +45,11 @@
 		&:hover {
 			background: var(--fg-light);
 		}
-		// &:active {
-		// 	filter: contrast(0.8);
-		// }
 	}
+	// &:active {
+	// 	// filter: contrast(0.8);
+	// 	transform: translateY(1px);
+	// }
 	display: flex;
 	align-items: center;
 }

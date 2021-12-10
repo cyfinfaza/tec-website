@@ -11,6 +11,7 @@ export default function Nav() {
 		const [active, setActive] = useState(false);
 		useEffect((_) => console.log("mounted button"), []);
 		function isActive(e) {
+			console.log("isActive");
 			setActive(e.isCurrent);
 		}
 		return (
@@ -40,8 +41,10 @@ export default function Nav() {
 			</div>
 			<div className={componentStyle.linksContainer}>
 				<NavLink to="/">Home</NavLink>
-				<NavLink to="/about">About</NavLink>
-				<NavLink to="/contact">Contact</NavLink>
+				<NavLink to="/leaders/">Leaders</NavLink>
+				<NavLink to="/projects/">Projects</NavLink>
+				<NavLink to="/tsa/">TSA</NavLink>
+				<NavLink to="/join/">Join</NavLink>
 			</div>
 		</div>
 	);

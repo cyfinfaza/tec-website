@@ -1,29 +1,37 @@
 {
-  "name": "tec-website",
-  "version": "1.0.0",
-  "private": true,
-  "description": "tec-website",
-  "author": "cyfinfaza",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "gatsby": "^4.3.0",
-    "gatsby-plugin-manifest": "^4.3.0",
-    "gatsby-plugin-react-helmet": "^5.3.0",
-    "gatsby-plugin-sass": "^5.3.0",
-    "gatsby-source-filesystem": "^4.3.0",
-    "gatsby-transformer-remark": "^5.3.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "sass": "^1.44.0"
-  }
+	"name": "tec-website",
+	"version": "1.0.0",
+	"private": true,
+	"description": "tec-website",
+	"author": "cyfinfaza",
+	"keywords": [
+		"gatsby"
+	],
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean"
+	},
+	"dependencies": {
+		"enable3d": "^0.24.1",
+		"framer-motion": "^5.4.5",
+		"gatsby": "^4.3.0",
+		"gatsby-plugin-compile-es6-packages": "^2.1.1",
+		"gatsby-plugin-manifest": "^4.3.0",
+		"gatsby-plugin-react-helmet": "^5.3.0",
+		"gatsby-plugin-sass": "^5.3.0",
+		"gatsby-source-filesystem": "^4.3.0",
+		"gatsby-transformer-remark": "^5.3.0",
+		"matter-js": "^0.17.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-helmet": "^6.1.0",
+		"sass": "^1.44.0",
+		"three": "^0.135.0"
+	},
+	"devDependencies": {
+		"babel-preset-gatsby": "^2.3.0"
+	}
 }
